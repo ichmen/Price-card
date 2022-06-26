@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.page {
+  width: 1440px;
+  height: 1000px;
+  background: #141b1c;
+  padding: 115px 132px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.green {
+  background-color: #5bb189;
+}
+
+.blue {
+  background-color: #3a6ba5;
+}
+
+.orange {
+  background-color: #ec632a;
+}
+
+.form {
+  height: 770px;
+  width: 380px;
+  border-radius: 0px;
+  background-color: #334247;
+  position: relative;
+  overflow: hidden;
+}
+
+.header__title {
+  margin: 0;
+  padding-top: 33px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+.header__description {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.price {
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  /* identical to box height */
+  text-align: center;
+}
+
+.detailed-info__description {
+  display: block;
+  margin: 40px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.detailed-info__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+.detailed-info__item {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.detailed-info__item:nth-child(odd) {
+  background-color: #2a3438;
+}
+
+.order-section {
+  align-content: center;
+}
+.order-section__button {
+  height: 40px;
+  width: 154px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  color: #fff;
+  margin: 40px 112px;
+  text-align: center;
+}
+
+.detiled-info__list {
+  margin-top: 40px;
+}
+
+.icon-marker {
+  display: block;
+  width: 15px;
+  height: 13px;
+  margin: 18px 22px;
+}
+.icon-marker.green-marker {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+.icon-marker.blue-marker {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+.icon-marker.orange-marker {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
+
+.popular-banner {
+  position: absolute;
+  background-color: #dc3f45;
+  display: block;
+  top: 31.5px;
+  right: -30px;
+  transform: rotate(45deg);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  width: 148px;
+  height: 25px;
+  text-align: center;
+}
+
+.form {
+  height: 770px;
+  width: 380px;
+  border-radius: 0px;
+  background-color: #334247;
+  position: relative;
+  overflow: hidden;
+}
+
+.header__title {
+  margin: 0;
+  padding-top: 33px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+.header__description {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.price {
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  /* identical to box height */
+  text-align: center;
+}
+
+.detailed-info__description {
+  display: block;
+  margin: 40px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.detailed-info__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+.detailed-info__item {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.detailed-info__item:nth-child(odd) {
+  background-color: #2a3438;
+}
+
+.order-section {
+  align-content: center;
+}
+.order-section__button {
+  height: 40px;
+  width: 154px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  color: #fff;
+  margin: 40px 112px;
+  text-align: center;
+}
+
+.detiled-info__list {
+  margin-top: 40px;
+}
+
+.icon-marker {
+  display: block;
+  width: 15px;
+  height: 13px;
+  margin: 18px 22px;
+}
+.icon-marker.green-marker {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+.icon-marker.blue-marker {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+.icon-marker.orange-marker {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
+
+.popular-banner {
+  position: absolute;
+  background-color: #dc3f45;
+  display: block;
+  top: 31.5px;
+  right: -30px;
+  transform: rotate(45deg);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  width: 148px;
+  height: 25px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

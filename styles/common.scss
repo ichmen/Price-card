@@ -5,11 +5,21 @@ html {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
-.page {
-  width: 1440px;
+.document {
+  width: 100vw;
   height: 1000px;
   background: #141b1c;
-  padding: 115px 132px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  // width: 1440px;
+  // height: 1000px;
+  width: 1176px;
+  height: 770px;
+  background: #141b1c;
+  // padding: 115px 132px;
   // margin: 115px 132px;
   display: flex;
   justify-content: space-between;

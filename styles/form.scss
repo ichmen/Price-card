@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.price-card {
+.card-item {
   &__title {
     margin: 0;
     padding-top: 33px;
@@ -27,10 +27,11 @@
   }
 }
 .price {
+  height: 105px;
   margin-top: 33px;
   font-weight: 700;
   font-size: 55px;
-  line-height: 67px;
+  line-height: 105px;
   /* identical to box height */
   // background-color: #5bb189;
   text-align: center;

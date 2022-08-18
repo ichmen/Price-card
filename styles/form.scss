@@ -1,8 +1,6 @@
 .form {
   height: 770px;
   width: 380px;
-  // left: 0px;
-  // top: 0px;
   border-radius: 0px;
   background-color: #334247;
   position: relative;
@@ -32,8 +30,6 @@
   font-weight: 700;
   font-size: 55px;
   line-height: 105px;
-  /* identical to box height */
-  // background-color: #5bb189;
   text-align: center;
 }
 
@@ -58,7 +54,6 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    // padding-left: 22px;
     &:nth-child(odd) {
       background-color: #2a3438;
     }
@@ -66,9 +61,6 @@
 }
 
 .order-section {
-  // display: flex;
-  // flex: 1;
-  // height: 100%;
   align-content: center;
   &__button {
     height: 40px;
@@ -76,7 +68,6 @@
     left: 0px;
     top: 0px;
     border-radius: 20px;
-    // background-color: #5bb189;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -112,10 +103,6 @@
   display: block;
   top: calc(44px - 12.5px);
   right: calc(-30px);
-  // top: calc(17px / 2 + 25px);
-  // top: 10px;
-  // left: calc(380px - 104px - 25px);
-  // bottom: calc(770px - 104px + 75px);
   transform: rotate(45deg);
   font-weight: 700;
   font-size: 14px;

@@ -2,7 +2,7 @@
   height: 770px;
   width: 380px;
   border-radius: 0px;
-  background-color: #334247;
+  background-color: $color-background-form;
   position: relative;
   overflow: hidden;
 }
@@ -55,7 +55,7 @@
     font-size: 15px;
     line-height: 18px;
     &:nth-child(odd) {
-      background-color: #2a3438;
+      background-color: $color-background-odd;
     }
   }
 }
@@ -72,7 +72,7 @@
     font-size: 14px;
     line-height: 17px;
     border: none;
-    color: #fff;
+    color: $text-color;
     margin: 40px 112px;
 
     text-align: center;
@@ -99,7 +99,7 @@
 }
 .popular-banner {
   position: absolute;
-  background-color: #dc3f45;
+  background-color: $color-background-popular;
   display: block;
   top: calc(44px - 12.5px);
   right: calc(-30px);

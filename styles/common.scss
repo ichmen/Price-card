@@ -3,12 +3,15 @@
 }
 html {
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  color: $text-color;
+}
+body {
+  overflow-x: hidden;
 }
 .document {
   width: 100vw;
   height: 100vh;
-  background: #141b1c;
+  background: $color-background;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +19,6 @@ html {
 .page {
   width: 1176px;
   height: 770px;
-  background: #141b1c;
   display: flex;
   justify-content: space-between;
 }

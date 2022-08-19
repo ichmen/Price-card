@@ -36,7 +36,7 @@ html {
   background-color: #ec632a;
 }
 
-.form {
+.card-item {
   height: 770px;
   width: 380px;
   border-radius: 0px;
@@ -44,7 +44,6 @@ html {
   position: relative;
   overflow: hidden;
 }
-
 .card-item__title {
   margin: 0;
   padding-top: 33px;
@@ -148,7 +147,7 @@ html {
   text-align: center;
 }
 
-.form {
+.card-item {
   height: 770px;
   width: 380px;
   border-radius: 0px;
@@ -156,7 +155,6 @@ html {
   position: relative;
   overflow: hidden;
 }
-
 .card-item__title {
   margin: 0;
   padding-top: 33px;

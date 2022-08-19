@@ -1,13 +1,10 @@
-.form {
+.card-item {
   height: 770px;
   width: 380px;
   border-radius: 0px;
   background-color: $color-background-form;
   position: relative;
   overflow: hidden;
-}
-
-.card-item {
   &__title {
     margin: 0;
     padding-top: 33px;

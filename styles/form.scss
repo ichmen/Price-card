@@ -1,7 +1,6 @@
-.card-item {
+.price-card {
   height: 770px;
   width: 380px;
-  border-radius: 0px;
   background-color: $color-background-form;
   position: relative;
   overflow: hidden;
@@ -12,25 +11,22 @@
     font-size: 35px;
     line-height: 43px;
     text-align: center;
+    &-small {
+      margin: 0;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
   }
-  &__description {
-    margin: 0;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
+  &__price {
+    height: 105px;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105px;
     text-align: center;
   }
-}
-.price {
-  height: 105px;
-  margin-top: 33px;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 105px;
-  text-align: center;
-}
-
-.detailed-info {
   &__description {
     display: block;
     margin: 40px 26px;
@@ -39,44 +35,42 @@
     line-height: 18px;
     text-align: center;
   }
-  &__list {
+
+  &__options-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-top: 40px;
-  }
-  &__item {
-    display: flex;
-    align-items: center;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    &:nth-child(odd) {
-      background-color: $color-background-odd;
+
+    &_item {
+      display: flex;
+      align-items: center;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      &:nth-child(odd) {
+        background-color: $color-background-odd;
+      }
     }
   }
-}
+  &__order {
+    align-content: center;
+    &-btn {
+      height: 40px;
+      width: 154px;
+      left: 0px;
+      top: 0px;
+      border-radius: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      border: none;
+      color: $text-color;
+      margin: 40px 112px;
 
-.order-section {
-  align-content: center;
-  &__button {
-    height: 40px;
-    width: 154px;
-    left: 0px;
-    top: 0px;
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    border: none;
-    color: $text-color;
-    margin: 40px 112px;
-
-    text-align: center;
+      text-align: center;
+    }
   }
-}
-.detiled-info__list {
-  margin-top: 40px;
 }
 
 .icon-marker {

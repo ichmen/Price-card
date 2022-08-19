@@ -36,15 +36,14 @@ html {
   background-color: #ec632a;
 }
 
-.card-item {
+.price-card {
   height: 770px;
   width: 380px;
-  border-radius: 0px;
   background-color: #334247;
   position: relative;
   overflow: hidden;
 }
-.card-item__title {
+.price-card__title {
   margin: 0;
   padding-top: 33px;
   font-weight: 700;
@@ -52,15 +51,14 @@ html {
   line-height: 43px;
   text-align: center;
 }
-.card-item__description {
+.price-card__title-small {
   margin: 0;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 }
-
-.price {
+.price-card__price {
   height: 105px;
   margin-top: 33px;
   font-weight: 700;
@@ -68,8 +66,7 @@ html {
   line-height: 105px;
   text-align: center;
 }
-
-.detailed-info__description {
+.price-card__description {
   display: block;
   margin: 40px 26px;
   font-weight: 300;
@@ -77,27 +74,26 @@ html {
   line-height: 18px;
   text-align: center;
 }
-.detailed-info__list {
+.price-card__options-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-top: 40px;
 }
-.detailed-info__item {
+.price-card__options-list_item {
   display: flex;
   align-items: center;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
-.detailed-info__item:nth-child(odd) {
+.price-card__options-list_item:nth-child(odd) {
   background-color: #2a3438;
 }
-
-.order-section {
+.price-card__order {
   align-content: center;
 }
-.order-section__button {
+.price-card__order-btn {
   height: 40px;
   width: 154px;
   left: 0px;
@@ -110,10 +106,6 @@ html {
   color: #fff;
   margin: 40px 112px;
   text-align: center;
-}
-
-.detiled-info__list {
-  margin-top: 40px;
 }
 
 .icon-marker {
@@ -147,15 +139,14 @@ html {
   text-align: center;
 }
 
-.card-item {
+.price-card {
   height: 770px;
   width: 380px;
-  border-radius: 0px;
   background-color: #334247;
   position: relative;
   overflow: hidden;
 }
-.card-item__title {
+.price-card__title {
   margin: 0;
   padding-top: 33px;
   font-weight: 700;
@@ -163,15 +154,14 @@ html {
   line-height: 43px;
   text-align: center;
 }
-.card-item__description {
+.price-card__title-small {
   margin: 0;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 }
-
-.price {
+.price-card__price {
   height: 105px;
   margin-top: 33px;
   font-weight: 700;
@@ -179,8 +169,7 @@ html {
   line-height: 105px;
   text-align: center;
 }
-
-.detailed-info__description {
+.price-card__description {
   display: block;
   margin: 40px 26px;
   font-weight: 300;
@@ -188,27 +177,26 @@ html {
   line-height: 18px;
   text-align: center;
 }
-.detailed-info__list {
+.price-card__options-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-top: 40px;
 }
-.detailed-info__item {
+.price-card__options-list_item {
   display: flex;
   align-items: center;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
-.detailed-info__item:nth-child(odd) {
+.price-card__options-list_item:nth-child(odd) {
   background-color: #2a3438;
 }
-
-.order-section {
+.price-card__order {
   align-content: center;
 }
-.order-section__button {
+.price-card__order-btn {
   height: 40px;
   width: 154px;
   left: 0px;
@@ -221,10 +209,6 @@ html {
   color: #fff;
   margin: 40px 112px;
   text-align: center;
-}
-
-.detiled-info__list {
-  margin-top: 40px;
 }
 
 .icon-marker {

@@ -6,7 +6,7 @@ html {
   color: $text-color;
 }
 
-.document {
+body {
   width: 100vw;
   height: 100vh;
   background: $color-background;
@@ -20,14 +20,4 @@ html {
   height: 770px;
   display: flex;
   justify-content: space-between;
-}
-
-.green {
-  background-color: $green;
-}
-.blue {
-  background-color: $blue;
-}
-.orange {
-  background-color: $orange;
 }

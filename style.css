@@ -7,7 +7,7 @@ html {
   color: #fff;
 }
 
-.document {
+body {
   width: 100vw;
   height: 100vh;
   background: #141b1c;
@@ -22,18 +22,6 @@ html {
   height: 770px;
   display: flex;
   justify-content: space-between;
-}
-
-.green {
-  background-color: #5bb189;
-}
-
-.blue {
-  background-color: #3a6ba5;
-}
-
-.orange {
-  background-color: #ec632a;
 }
 
 .price-card {
@@ -66,6 +54,15 @@ html {
   line-height: 105px;
   text-align: center;
 }
+.price-card__price_green {
+  background-color: #5bb189;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.price-card__price_orange {
+  background-color: #ec632a;
+}
 .price-card__description {
   display: block;
   margin: 40px 26px;
@@ -80,20 +77,17 @@ html {
   padding: 0;
   margin-top: 40px;
 }
-.price-card__options-list_item {
+.price-card__options-list-item {
   display: flex;
   align-items: center;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
-.price-card__options-list_item:nth-child(odd) {
+.price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__order {
-  align-content: center;
-}
-.price-card__order-btn {
+.price-card__btn {
   height: 40px;
   width: 154px;
   left: 0px;
@@ -107,20 +101,28 @@ html {
   margin: 40px 112px;
   text-align: center;
 }
-
-.icon-marker {
+.price-card__btn_green {
+  background-color: #5bb189;
+}
+.price-card__btn_blue {
+  background-color: #3a6ba5;
+}
+.price-card__btn_orange {
+  background-color: #ec632a;
+}
+.price-card__icon-marker {
   display: block;
   width: 15px;
   height: 13px;
   margin: 18px 22px;
 }
-.icon-marker.green-marker {
+.price-card__icon-marker_green {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
 }
-.icon-marker.blue-marker {
+.price-card__icon-marker_blue {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
 }
-.icon-marker.orange-marker {
+.price-card__icon-marker_orange {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
 

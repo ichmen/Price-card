@@ -26,6 +26,15 @@
     font-size: 55px;
     line-height: 105px;
     text-align: center;
+    &_green {
+      background-color: $green;
+    }
+    &_blue {
+      background-color: $blue;
+    }
+    &_orange {
+      background-color: $orange;
+    }
   }
   &__description {
     display: block;
@@ -42,7 +51,7 @@
     padding: 0;
     margin-top: 40px;
 
-    &_item {
+    &-item {
       display: flex;
       align-items: center;
       font-weight: 300;
@@ -53,41 +62,48 @@
       }
     }
   }
-  &__order {
-    align-content: center;
-    &-btn {
-      height: 40px;
-      width: 154px;
-      left: 0px;
-      top: 0px;
-      border-radius: 20px;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 17px;
-      border: none;
-      color: $text-color;
-      margin: 40px 112px;
 
-      text-align: center;
+  &__btn {
+    height: 40px;
+    width: 154px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    color: $text-color;
+    margin: 40px 112px;
+    text-align: center;
+    &_green {
+      background-color: $green;
+    }
+    &_blue {
+      background-color: $blue;
+    }
+    &_orange {
+      background-color: $orange;
+    }
+  }
+
+  &__icon-marker {
+    display: block;
+    width: 15px;
+    height: 13px;
+    margin: 18px 22px;
+    &_green {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+    }
+    &_blue {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+    }
+    &_orange {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
     }
   }
 }
 
-.icon-marker {
-  display: block;
-  width: 15px;
-  height: 13px;
-  margin: 18px 22px;
-  &.green-marker {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
-  }
-  &.blue-marker {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
-  }
-  &.orange-marker {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
-  }
-}
 .popular-banner {
   position: absolute;
   background-color: $color-background-popular;
